@@ -4,22 +4,6 @@
 
 var mysql = require("mysql");
 
-// create the connection information for the sql database
-// var connection = mysql.createConnection({
-//     host: "localhost",
-//
-//     // Your username
-//     user: "root",
-//
-//     // Your password
-//     password: "",
-//     database: "burgers_db"
-// });
-
-// connect to the mysql server and sql database
-// connection.connect(function(err) {
-//     if (err) throw err;
-// });
 
 if (process.env.JAWSDB_URL) {
 

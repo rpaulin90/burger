@@ -53,6 +53,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static(process.cwd() + "/public"));
+//app.use(methodOverride("_method"));
 
 require("./controllers/burgers_controllers")(app);
 

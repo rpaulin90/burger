@@ -13,7 +13,7 @@ module.exports = function(app) {
             var hbsObject = {
                 burgers: data
             };
-            console.log(hbsObject.burgers[0]);
+            console.log(hbsObject.burgers);
             res.render("index",hbsObject);
         });
         //console.log(burger.all);
